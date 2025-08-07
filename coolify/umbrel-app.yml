@@ -1,0 +1,50 @@
+manifestVersion: 1
+id: coolify
+category: developer
+name: Coolify
+version: "4.0.0"
+tagline: Deploy apps com facilidade no seu Umbrel
+description: >-
+  Coolify é uma alternativa auto-hospedável ao Heroku, Netlify e Vercel. Ele permite que você gerencie servidores,
+  aplicações e bancos de dados diretamente no seu hardware, com uma interface intuitiva e poderosa.
+
+
+  ⚠️ Recomendações importantes para usuários do Coolify no Umbrel:
+
+
+  1. Persistência de dados: Use volumes nomeados para garantir que seus dados não sejam perdidos durante atualizações ou reinicializações.
+
+
+  2. Conflitos de porta: Verifique se as portas usadas por seus containers não conflitam com outros apps instalados no Umbrel.
+
+
+  3. Política de reinício: Configure seus containers com políticas como "always" ou "unless-stopped" para garantir reinicialização automática.
+
+
+  4. Acesso via navegador: Acesse suas aplicações web em umbrel.local:PORTA, conforme configurado no Coolify.
+
+
+  Coolify oferece deploy com Git, integração com bancos de dados, monitoramento de recursos e suporte a múltiplos servidores.
+website: https://coolify.io
+dependencies: []
+repo: https://github.com/coollabsio/coolify
+support: https://github.com/coollabsio/coolify/issues
+port: 3000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+# defaultUsername: "admin"
+# defaultPassword: "changeme"
+releaseNotes: >-
+  Esta versão inclui melhorias e correções:
+    - Refatoração do sistema de variáveis de ambiente
+    - Suporte aprimorado para deploy via Git
+    - Melhorias na interface de gerenciamento de instâncias
+
+
+  Notas completas em https://github.com/coollabsio/coolify/releases
+developer: CoolLabs
+submitter: Umbrel Community
+submission: https://github.com/getumbrel/umbrel-apps/pull/XXX
